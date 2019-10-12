@@ -1,0 +1,23 @@
+.slick-cloned{
+    width: 228px;
+}
+.slick-image {
+    width:100px;
+    height:70px;
+    filter: hue-rotate(310deg)saturate(200%)grayscale(60%);
+    margin:15px !important;
+
+}
+.slick-item {
+    margin: 5px 20px 5px 20px;
+    background-color: grey;
+}
+
+.carousel {
+    display: none;
+}
+@media only screen and (min-width: 480px) {
+    .carousel {
+        display: block;
+    }
+}

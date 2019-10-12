@@ -1,0 +1,46 @@
+
+@media only screen and (min-width: 480px) {
+    .navbar-nav {
+        /*height: 50px;*/
+        /*padding: 11px;*/
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+}
+.navbar-nav{
+
+}
+.nav-link {
+    color: black !important;
+    /*text-align: center;*/
+}
+
+.nav-item {
+    height: 50px;
+}
+
+.blue {
+    color: dodgerblue;
+    /*padding-right: 10px;*/
+    animation:spinBack 400ms linear;
+}
+
+.blue:hover {
+
+
+    animation:spin 400ms linear;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinBack {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(-360deg);
+    }
+}
